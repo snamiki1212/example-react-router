@@ -1,5 +1,5 @@
 
-![201905071900_1](https://user-images.githubusercontent.com/26793088/57295431-adb28600-70f4-11e9-88f5-85b8c3b8eebd.gif)
+![May-07-2019 22-55-01](https://user-images.githubusercontent.com/26793088/57315194-4eb53700-711d-11e9-9d5e-506a6ae6e85c.gif)
 
 → [react-router を使ってサンプルアプリを作った](https://snamiki1212.com/create-react-router-techs)
 
