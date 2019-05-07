@@ -6,7 +6,7 @@ import { Techs } from '../TechData';
 
 const Home: React.FC= () => {
   return(
-    <>
+    <div>
       <Header />
       <p>ルーティングした情報を表示するサンプル</p>
       {Techs.map(tech => {
@@ -18,7 +18,7 @@ const Home: React.FC= () => {
         )
       })}
       <Footer />
-    </>
+    </div>
   );
 }
 
