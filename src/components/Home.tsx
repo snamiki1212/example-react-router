@@ -1,14 +1,14 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const Home: React.FC= () => {
   return(
     <>
-      <p>
-      test message
-      <Link to='/about'>LINK</Link>
-      <Link to='/'>HOME</Link>
-      </p>
+      <Header />
+      <p>Programming Languagesについての一覧を表示するアプリ</p>
+      <p>ここに一覧とリンク</p>
+      <Footer />
     </>
   );
 }
