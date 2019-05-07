@@ -10,9 +10,10 @@ const Home: React.FC= () => {
       <Header />
       <p>技術情報を表示するアプリ</p>
       {Techs.map(tech => {
+        const to = `/${tech.id.toString()}`;
         return(
           <li key={tech.id}>
-            <Link to={tech.name}>{tech.name}</Link>
+            <Link to={to}>{tech.name}</Link>
           </li>
         )
       })}

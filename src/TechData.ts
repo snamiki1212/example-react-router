@@ -1,16 +1,16 @@
-interface Tech{
+export interface TechData{
   id: number;
   name: string;
   side: whereToUse;
 }
 
-enum whereToUse{
+export enum whereToUse{
   Backend,
   Frontend,
   Mobile
 }
 
-export const Techs: Tech[] = 
+export const Techs: TechData[] = 
 [
   {
     id: 1,
