@@ -8,7 +8,7 @@ const Home: React.FC= () => {
   return(
     <>
       <Header />
-      <p>技術情報を表示するアプリ</p>
+      <p>ルーティングした情報を表示するサンプル</p>
       {Techs.map(tech => {
         const to = `/${tech.id.toString()}`;
         return(
