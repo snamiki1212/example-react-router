@@ -10,7 +10,7 @@ const Header: React.FC= () => {
       backgroundColor: 'lightgreen',
       height: '30px',
     }}>
-      <span>React-router-programming-languages</span>
+      <span>React-router-techs</span>
       <span>
         <Link to='/'>HOME</Link>
         /

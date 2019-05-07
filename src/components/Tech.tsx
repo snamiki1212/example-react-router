@@ -11,13 +11,15 @@ const Tech: FC<Tech> = ({history, location, match}) => {
   const techId = parseInt(match.params.id);
   const tech = Techs.find( (tech: TechData) => tech.id === techId);
   
-  console.log(tech);
   return (tech === undefined) ? (<Redirect to='/' />) : ( 
     <div>
       <Header />
-      <p>ID: {tech.id}</p>
-      <p>NAME: {tech.name}</p>
-      <p>SIDE: {whereToUse[tech.side]}</p>
+      <p>
+        <span>ID: {tech.id}</span>
+        <span>/ NAME: {tech.name}</span>
+        <span>/ SIDE: {whereToUse[tech.side]}</span>
+      </p>
+      <p style={{width: '50%', margin: 'auto'}}>{tech.memo}</p>
       <Footer />
     </div>
   )
